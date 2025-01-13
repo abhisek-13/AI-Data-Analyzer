@@ -55,7 +55,7 @@ if user_question:
   result = sql_chain.invoke({"columns":column_names,"db":db_name,"user_question":user_question})
   
   op_strng = output_makeup(result)
-  print(result)
+  print(op_strng)
   ans = db.sql(op_strng).to_df()
   ans_dict = ans.to_dict(orient='list')
   

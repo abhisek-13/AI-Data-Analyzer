@@ -47,8 +47,6 @@ def data_for_duckdb(column_list,df):
 def output_makeup(text):
   text = text.replace("\n"," ")
   text = text.replace("\t"," ")
-  text = text.replace("("," ")
-  text = text.replace(")"," ")
   text = text.replace("sql","")
   text = text.replace("```", "").strip()
   return text
