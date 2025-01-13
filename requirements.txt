@@ -1,0 +1,7 @@
+langchain
+langchain_community
+langchain-core
+langgraph
+langchain-nvidia-ai-endpoints
+duckdb
+streamlit
